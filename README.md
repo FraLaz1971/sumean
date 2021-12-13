@@ -1,9 +1,10 @@
 # SUM & MEAN
 
-## simple terminal app example
-## in c language
+**simple terminal app example in c language**
 
 ![sum & mean execution](./sumean.png "SUM & MEAN running")
+
+## Introduction
 
 This programming example accepts in input a list of positive integers
 and computes their sum and average, showing them as output. 
@@ -21,8 +22,13 @@ The output created on the standard input and/or
 the output created on the standard error 
 can be also saved in different text files.
 
+## How To
 _The following instructions are given supposing 
-you're yousing the GNU [gcc](https://gcc.gnu.org/) c language compiler._
+you're yousing the GNU [gcc](https://gcc.gnu.org/) c language compiler.
+You need to use a terminal emulator, like xterm on MacOS or gnome-terminal
+or konsole on GNU-Linux or 
+[cmd](https://www.howtogeek.com/235101/10-ways-to-open-the-command-prompt-in-windows-10/) 
+terminal on Microsoft Windows_
 
 ### to compile on linux/MacOS/MS-Win+[msys2](https://www.msys2.org/):
 make sumean
@@ -73,3 +79,25 @@ make sumeanp
 
 ### to compile on MS-Win:
 mingw32-make sumeanp
+
+![sum & mean results](./smrun.png "SUM & MEAN giving results")
+
+## Installation
+The sumean app do not really need to be installed permanently on the system
+to be executed and exercise with it, it can be downloaded and saved in any
+folder of your computer, then compiled and run.
+Of course you need the permission to write on that folder, 
+having it in a subfolder of the Desktop is ok.
+Some antiviruses and security systems on some OSs may wrongly
+detect the generated exe as harmful, take care of instruct
+or temporary stop/disable that systems.
+Many modern GNU-Linux distribution do not allow
+as default to run a binary exe app clicking on it
+with the mouse by the file browser.
+The Gnome file browser [nautilus](https://wiki.gnome.org/Apps/Files) (now called only Files) 
+can be instructed to do it, but the safer way to run it from 
+Graphical User Interface (GUI) is to use a .desktop file 
+as launcher and clicking on it instead. 
+The file install.sh and uninstall.sh are there for
+that purpose, for people that wonna try this optional method.
+
