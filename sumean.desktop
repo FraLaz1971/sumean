@@ -1,0 +1,21 @@
+[Desktop Action Window]
+Exec=$HOME/Desktop/sumeanp
+Name=SUM & MEAN
+
+[Desktop Entry]
+Comment[en_US]=execute sum & mean of positive integers
+Comment=execute sum & mean of positive integers
+Comment=connect to cyborg.iaps
+Exec=$HOME/Desktop/sumeanp
+GenericName[en_US]=
+GenericName=
+Icon=
+Keywords=terminal;app;example;programming
+MimeType=
+Name[en_US]=sumeanp
+Name=sumeanp
+Path=.
+StartupNotify=true
+Terminal=true
+TerminalOptions=
+Type=Application
