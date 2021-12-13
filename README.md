@@ -96,8 +96,8 @@ as default to run a binary exe app clicking on it
 with the mouse by the file browser.
 The Gnome file browser [nautilus](https://wiki.gnome.org/Apps/Files) (now called only Files) 
 can be instructed to do it, but the safer way to run it from 
-Graphical User Interface (GUI) is to use a .desktop file 
-as launcher and clicking on it instead. 
+Graphical User Interface (GUI) on GNU-Linux is to use 
+a .desktop file  as launcher and clicking on it instead. 
 The file install.sh and uninstall.sh are there for
 that purpose, for people that wonna try this optional method.
 
