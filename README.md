@@ -105,8 +105,8 @@ that purpose, for people that wonna try this optional method.
 ## Troubleshooting
 In the simpler case, we're supposing the gcc compiler executable
 can be called with the following instruction:
-`gcc sumean.c -o sumean`
-That implies somewhere in the list of the PATH environment variable
+`gcc sumean.c -o sumean` ,
+which implies that somewhere in the list of the PATH environment variable
 is included a path to a folder containing the gcc executable file or a link to it.
 In the simpler case for Microsoft Windows the gcc .exe file or a link to it 
 would be called gcc.exe . Modern mingw32-gcc release have that filename called
