@@ -108,8 +108,9 @@ can be called with the following instruction:
 `gcc sumean.c -o sumean` ,
 which implies that somewhere in the list of the PATH environment variable
 is included a path to a folder containing the gcc executable file or a link to it.
-In the simpler case for Microsoft Windows the gcc .exe file or a link to it 
-would be called gcc.exe . Modern mingw32-gcc release have that filename called
+In the simpler case in \*nix like OS it is called just gcc and
+for Microsoft Windows it should be called gcc.exe . 
+Modern mingw32-gcc release have that filename called
 `x86_64-w64-mingw32-gcc.exe` for the 64 bit version and 
 `i686-w64-mingw32-gcc.exe` for 32 bit version, but may also include a copy called
 `gcc.exe` as well.
