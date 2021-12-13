@@ -24,33 +24,33 @@ can be also saved in different text files.
 _The following instructions are given supposing 
 you're yousing the GNU [gcc](https://gcc.gnu.org/) c language compiler._
 
-### to compile on linux/MacOS/MSwin+msys2:
+### to compile on linux/MacOS/MS-Win+msys2:
 make sumean
 
 ### to compile on MSwin mingw32:
 mingw32-make sumean
 
-### to run on linux/MacOS/MSwin+msys2
+### to run on linux/MacOS/MS-Win+msys2
 ./sumean
 
-### to run on linux/MacOS/MSwin+msys2
+### to run on linux/MacOS/MS-Win+msys2
 ### saving the results on an output file
 ./sumean >out.asc
 
-### to run on linux/MacOS/MSwin+msys2 & logging
+### to run on linux/MacOS/MS-Win+msys2 & logging
 __saving the instructions on an output file err.log
 saving the results on an output file out.asc 
 this implies you giving input without hints (blind mode)__
 
 ./sumean 2>err.log >out.asc
 
-### to remove all created files in GNU-linux/MacOS/MSwin+msys2
+### to remove all created files in GNU-linux/MacOS/MS-win+msys2
 rm sumean.o sumean \*.log \*.asc
 
-### to run on MSwin cmd shell
+### to run on MS-Win cmd shell
 sumean
 
-### to remove all created files in MSwin cmd shell
+### to remove all created files in MS-Win cmd shell
 del sumean.o sumean \*.log \*.asc
 
 ### Running the app using file explorer and mouse
@@ -71,5 +71,5 @@ Just compile the source:
 ### to compile on GNU-Linux/MacOS:
 make sumeanp
 
-### to compile on MS win:
+### to compile on MS-Win:
 mingw32-make sumeanp
