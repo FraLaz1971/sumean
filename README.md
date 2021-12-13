@@ -11,8 +11,8 @@ and computes their sum and average, showing them as output.
 The list can be read from standard input 
 (keyboard or [file redirection](https://en.wikipedia.org/wiki/Standard_streams)).
 
-The [log](https://en.wikipedia.org/wiki/Logging_\(software\)) of what's going on with the computation
-is printed on the standard error output stream,
+The [log](https://en.wikipedia.org/wiki/Logging_\(software\)) of what's going on with 
+the computation is printed on the standard error output stream,
 while the actual numerical output is printed
 on the standard output at the end.
 This allows to use the app output as input
@@ -24,7 +24,7 @@ can be also saved in different text files.
 _The following instructions are given supposing 
 you're yousing the GNU [gcc](https://gcc.gnu.org/) c language compiler._
 
-### to compile on linux/MacOS/MS-Win+msys2:
+### to compile on linux/MacOS/MS-Win+[msys2](https://www.msys2.org/):
 make sumean
 
 ### to compile on MSwin mingw32:
