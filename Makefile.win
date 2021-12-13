@@ -1,0 +1,16 @@
+RM = del
+CC = gcc
+LD = gcc
+MAKE = mingw32-make
+
+.PHONY: clean
+
+sumean: sumean.c
+	$(CC) sumean.c -o sumean
+
+sumeanp: sumeanp.c
+	$(CC) sumean.c -o sumean
+
+clean:
+	$(RM) sumean.o sumean *.log *.asc
+

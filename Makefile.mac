@@ -1,0 +1,11 @@
+RM = rm -f
+CC = gcc
+LD = gcc
+MAKE = make
+
+.PHONY: clean
+
+
+clean:
+	$(RM) sumean.o sumean *.log *.asc
+
