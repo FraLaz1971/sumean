@@ -60,7 +60,7 @@ on an output file out.asc this implies you giving input without hints
 
 ### to remove all created files in GNU-linux/MacOS/MS-win+msys2
 
-rm sumean.o sumean \*.log \*.asc
+rm sumean.o sumean *.log *.asc
 
 ### to run on MS-Win cmd shell
 
@@ -68,7 +68,7 @@ sumean
 
 ### to remove all created files in MS-Win cmd shell
 
-del sumean.o sumean \*.log \*.asc
+del sumean.o sumean *.log *.asc
 
 ### Running the app using file explorer and mouse
 
