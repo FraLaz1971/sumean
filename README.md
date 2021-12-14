@@ -14,7 +14,13 @@ Introduction
 This programming example accepts in input a list of positive integers
 and computes their sum and average, showing them as output. At the end
 of the execution it shows the number $m$ of input 1-D points, their sum
-![sum formula](./sum.png) and their average value ![mean formula](./mean.png). 
+
+![sum formula](./sum.png) 
+
+and their average value 
+
+![mean formula](./mean.png). 
+
 The list can be read from standard input (keyboard or [file
 redirection](https://en.wikipedia.org/wiki/Standard_streams)).
 
