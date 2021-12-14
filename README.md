@@ -128,10 +128,11 @@ can be called with the following instruction: `gcc.sumean.c -o sumean` ,
 which implies that somewhere in the list of the PATH environment
 variable is included a path to a folder containing the gcc executable
 file or a link to it. In the simpler case in \*nix like OSs it is called
-just gcc and in Microsoft Windows it should be called gcc.exe . Modern
-mingw32-gcc releases have that filename called
+just gcc and in Microsoft Windows it should be called gcc.exe . 
 
 ![path to gcc on MS-win OS](./whereisgcconwin.png)
+
+Modern mingw32-gcc releases have that filename called
 
 `x86_64-w64-mingw32-gcc.exe` for the 64 bit version and
 `i686-w64-mingw32-gcc.exe` for the 32 bit version, but may also include
