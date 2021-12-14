@@ -15,6 +15,28 @@ long int point[40]; /* monodimensional points array, max dimension is 40 */
 unsigned char w=0;  /* w>0 if you got warnings */
 unsigned long count=0;
 unsigned char skip=0;
+/** @function main() main function of the app  
+* @detailed
+* 
+* This example accepts a list of positive integers
+* And computes their sum and average. 
+* The list can be read from stdin (keyboard or file redirection)
+*      - on GNU c check If stdin is the terminal, fileno(stdin) is always 0.
+*      - Present to the user what the app is doing 
+*      - Tell user to enter data points; maximum of allowed pts = 39
+*      - Present to the user what the app is doing 
+*      - Start an infinite loop, flow interrupted only by break;
+*      - Read a value; check for end of file (EOF val = -1) 
+*      - Value input before is in string format
+*      - If the string correctly express a legal numerical value, convert it into integer
+*        and then insert it in the 1-D points array and increment the partial sum with its value
+*      - Reject the item value otherwise
+*      - check when the end of the dataset is reached (reading -1)
+*      - -1 read --> break; continue the loop otherwise
+*      - EOF detected --> compute average
+*      - print final report #points, sum, average.
+*      - **call PAUSE() and wait user input to close the terminal**
+*/
 
 int main(int argc, char **argv)
 {
