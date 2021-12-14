@@ -1,15 +1,10 @@
----
----
-
-SUM & MEAN
-==========
+# SUM & MEAN
 
 **simple terminal app example in c language**
 
 ![sum & mean execution](./sumean.png)
 
-Introduction
-------------
+## Introduction
 
 This programming example accepts in input a list of positive integers
 and computes their sum and average, showing them as output. At the end
@@ -102,8 +97,7 @@ mingw32-make sumeanp
 
 ![sum & mean results](./smrun.png)
 
-Installation
-------------
+## Installation
 
 The sumean app do not really need to be installed permanently on the
 system to be executed and exercise with it, it can be downloaded and
@@ -120,8 +114,7 @@ User Interface (GUI) on GNU-Linux is to use a .desktop file as launcher
 and clicking on it instead. The file install.sh and uninstall.sh are
 there for that purpose, for people that wonna try this optional method.
 
-Troubleshooting
----------------
+## Troubleshooting
 
 In the simpler case, we're supposing that the gcc compiler executable
 can be called with the following instruction: `gcc.sumean.c -o sumean` ,
