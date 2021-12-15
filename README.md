@@ -132,9 +132,9 @@ a copy called `gcc.exe` as well.
 ## Documentation
 Beyond this project page the following documentation is available
 
-1. This doc in pdf version [ReadMe in pdf format](./ReadMe.pdf)
-2. Reference Manual [Ref Manual] (doc/refman.pdf) 
-3. [Web Reference](http://fralaz1971.freeshell.net/sumean/doc/html/index.html)
+1. This doc in pdf [ReadMe in pdf format](./ReadMe.pdf)
+2. Reference Manual [Ref Manual](doc/refman.pdf) 
+3. Web Reference [Web Reference](http://fralaz1971.freeshell.net/sumean/doc/html/index.html)
 
 ## Computing Steps
 
