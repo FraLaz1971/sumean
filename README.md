@@ -147,3 +147,4 @@ The following are the processing steps executed by the program.
 - print final report #points, sum, average.
 
 ![flow-chart of SUM & MEAN](./sumean_flowchart.png)
+
