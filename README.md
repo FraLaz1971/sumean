@@ -27,7 +27,7 @@ following app, that read from the standard input. The output created on
 the standard input and/or the output created on the standard error can
 be also saved in different text files.
 
-##How To
+## How To
 
 The following instructions are given supposing you're yousing the GNU
 [gcc](https://gcc.gnu.org/) c language compiler. You need to use a
