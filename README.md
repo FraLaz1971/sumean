@@ -129,3 +129,21 @@ Modern mingw32-gcc releases have that filename called
 `x86_64-w64-mingw32-gcc.exe` for the 64 bit version and
 `i686-w64-mingw32-gcc.exe` for the 32 bit version, but may also include
 a copy called `gcc.exe` as well.
+
+## Computing Steps
+
+The following are the processing steps executed by the program.
+
+- Present to the user what the app is doing 
+- Tell user to enter data points; maximum of allowed pts = 39
+- Start an infinite loop, flow interrupted only by break;
+	- Read a value; check for end of file (EOF val = -1) 
+	- Value input before is in string format
+	- If the string correctly express a legal numerical value, convert it into integer
+	and then insert it in the 1-D points array and increment the partial sum with its value
+	- Reject the item value otherwise
+	- check when the end of the dataset is reached (reading -1)
+	- if -1 read --> break; continue the loop otherwise
+	- if EOF detected --> compute average
+- print final report #points, sum, average.
+
