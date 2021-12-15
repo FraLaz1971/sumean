@@ -14,7 +14,7 @@ of the execution it shows the number __m__ of input 1-D points, their sum
 
 and their average value 
 
-![mean formula](./mean.png). 
+![mean formula](./mean.png)
 
 The list can be read from standard input (keyboard or [file
 redirection](https://en.wikipedia.org/wiki/Standard_streams)).
@@ -27,8 +27,7 @@ following app, that read from the standard input. The output created on
 the standard input and/or the output created on the standard error can
 be also saved in different text files.
 
-How To
-------
+##How To
 
 The following instructions are given supposing you're yousing the GNU
 [gcc](https://gcc.gnu.org/) c language compiler. You need to use a
@@ -93,7 +92,7 @@ make sumeanp
 
 ### to compile on MS-Win:
 
-mingw32-make sumeanp
+mingw32-make -f Makefile.win sumeanp
 
 ![sum & mean results](./smrun.png)
 
@@ -117,7 +116,7 @@ there for that purpose, for people that wonna try this optional method.
 ## Troubleshooting
 
 In the simpler case, we're supposing that the gcc compiler executable
-can be called with the following instruction: `gcc.sumean.c -o sumean` ,
+can be called with the following instruction: `gcc sumean.c -o sumean` ,
 which implies that somewhere in the list of the PATH environment
 variable is included a path to a folder containing the gcc executable
 file or a link to it. In the simpler case in \*nix like OSs it is called
