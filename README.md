@@ -137,13 +137,13 @@ The following are the processing steps executed by the program.
 - Present to the user what the app is doing 
 - Tell user to enter data points; maximum of allowed pts = 39
 - Start an infinite loop, flow interrupted only by break;
-	- Read a value; check for end of file (EOF val = -1) 
-	- Value input before is in string format
-	- If the string correctly express a legal numerical value, convert it into integer
-	and then insert it in the 1-D points array and increment the partial sum with its value
+	- Read a value; end of file (EOF val = -1) will be checked 
+	- Value input before is in string format, if the string correctly express a legal numerical value, convert it into integer 
+	- Insert the read item in the 1-D points array and increment the partial sum with its value
 	- Reject the item value otherwise
 	- check when the end of the dataset is reached (reading -1)
 	- if -1 read --> break; continue the loop otherwise
-	- if EOF detected --> compute average
+- EOF detected : compute average
 - print final report #points, sum, average.
 
+![flow-chart of SUM & MEAN](./sumean_flowchart.png)
