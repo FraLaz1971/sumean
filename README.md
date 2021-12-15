@@ -148,3 +148,11 @@ The following are the processing steps executed by the program.
 
 ![flow-chart of SUM & MEAN](./sumean_flowchart.png)
 
+## TODOs
+
+Execution examples with remarkable datasets can be added.
+Example of how to run it and catch the app output from another
+app reading from stdin will be useful to show how to create
+a simple software pipeline. Another useful exeample to add
+will be using an external app that read the sumean output
+and graph the points succession and the mean value, and the sum.
