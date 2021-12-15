@@ -21,10 +21,8 @@ unsigned char skip=0;
 * This example accepts a list of positive integers
 * And computes their sum and average. 
 * The list can be read from stdin (keyboard or file redirection)
-*      - on GNU c check If stdin is the terminal, fileno(stdin) is always 0.
 *      - Present to the user what the app is doing 
 *      - Tell user to enter data points; maximum of allowed pts = 39
-*      - Present to the user what the app is doing 
 *      - Start an infinite loop, flow interrupted only by break;
 *      - Read a value; check for end of file (EOF val = -1) 
 *      - Value input before is in string format
