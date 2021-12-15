@@ -16,8 +16,8 @@ and their average value
 
 ![mean formula](./mean.png)
 
-The list can be read from standard input (keyboard or [file
-redirection](https://en.wikipedia.org/wiki/Standard_streams)).
+The list can be read from standard input 
+(keyboard or [file redirection](https://en.wikipedia.org/wiki/Standard_streams)).
 
 The [log](https://en.wikipedia.org/wiki/Logging_(software)) of what's
 going on with the computation is printed on the standard error output
@@ -74,8 +74,7 @@ an output file out.asc this implies you giving input without hints
 
 rm sumean.o sumean \*.log \*.asc
 
-Using file explorer and mouse
------------------------------
+## Using file explorer and mouse
 
 the source file sumeanp.c is just the same app code with added a feature
 useful to run the app from file explorer graphical user interface. 
@@ -129,6 +128,13 @@ Modern mingw32-gcc releases have that filename called
 `x86_64-w64-mingw32-gcc.exe` for the 64 bit version and
 `i686-w64-mingw32-gcc.exe` for the 32 bit version, but may also include
 a copy called `gcc.exe` as well.
+
+## Documentation
+Beyond this project page the following documentation is available
+
+1. This doc in pdf version [ReadMe in pdf format](./ReadMe.pdf)
+2. Reference Manual [Ref Manual] (doc/refman.pdf) 
+3. [Web Reference](http://fralaz1971.freeshell.net/sumean/doc/html/index.html)
 
 ## Computing Steps
 
